@@ -2,6 +2,9 @@
 name = "procfs-to-json"
 version = "0.1.0"
 edition = "2021"
+description = "Dumps procfs as JSON"
+license = "MIT"
+repository = "https://github.com/noahp/procfs-to-json"
 
 [dependencies]
 procfs = "0.12"
