@@ -33,14 +33,6 @@ fn main() -> Result<(), ProcError> {
         if let Ok(info) = get_proc_info(process.pid) {
             processes.push(info);
         }
-        // match process {
-        //     Ok(proc) => {
-        //         if let Ok(info) = get_proc_info(proc.pid) {
-        //             processes.push(info);
-        //         }
-        //     }
-        //     Err(e) => eprintln!("Failed to read process info: {:?}", e),
-        // }
     }
 
     // Convert to JSON
